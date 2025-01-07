@@ -1,0 +1,5 @@
+openai~=1.23.2
+requests~=2.31.0
+arcade~=2.6.17
+pyglet~=2.0.dev23
+aiohttp~=3.9.5

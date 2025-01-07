@@ -1,0 +1,8 @@
+{
+    "file_name": {
+        "person": "data/archive/person_30.json",
+        "memory": "data/archive/memory_30.json",
+        "record": "data/record_data/ai_send_data_100.json"
+    },
+    "world_pass_time": 29111.218414666597
+}

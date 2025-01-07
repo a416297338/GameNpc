@@ -1,0 +1,66 @@
+句子：!<INPUT 0>!
+示例输入：
+(1) 到公司完成下午的工作任务（13:00 - 17:00）
+(2) 在公司整理出差所需文件（17:00 - 18:00）
+(3) 在公司安排明天出差的行程和细节（18:00 - 19:00）
+(4) 回家与家人共进晚餐（19:30 - 20:30）
+(5) 在家放松休息（20:30 - 21:30）
+(6) 在家准备明天的行李和个人物品（21:30 - 22:30）
+(7) 在家阅读一些轻松的书籍（22:30 - 23:00）
+(8) 在家睡觉休息（23:00 - 07:00）
+<commentblockmarker>###</commentblockmarker>
+!<INPUT 0>!
+将上面的所有句子
+拆分语义,按照以下数据格式分解,:
+data.get('str') # 句子内容
+data.get('start_time') # 开始时间
+data.get('end_time') # 结束时间
+data.get('location') # 地点(必须从句子中选择一个地点)
+data.get('subject') # 主语
+data.get('verb') # 谓语
+data.get('object') # 宾语
+data.get('sub_clause') # 从句
+data.get('predicate') # 表语
+data.get('other_person') # 句子中主语一起做事的人(可能缺省)
+输出以 [ 作为开头 ] 作为结尾
+输出数据应该严格遵照以下格式 示例：
+[
+{
+"str": "在学校进行午餐休息与休息时间",
+"start_time": "12:00",
+"end_time": "13:00",
+"location": 学校,
+"subject": null,
+"verb": "进行",
+"object": "午餐休息与休息时间",
+"sub_clause": null,
+"predicate": null,
+"other_person": null
+},
+{
+"str": "在公司准备明天出差所需文件",
+"start_time": "13:00",
+"end_time": "14:30",
+"location": 公司,
+"subject": null,
+"verb": "准备",
+"object": "明天出差所需文件",
+"sub_clause": null,
+"predicate": null,
+"other_person": null
+},
+{
+"str": "在公司与同事开会讨论新项目的战略规划",
+"start_time": "14:30",
+"end_time": "16:00",
+"location": 公司,
+"subject": null,
+"verb": "开会讨论",
+"object": "新项目的战略规划",
+"sub_clause": null,
+"predicate": null,
+"other_person": "同事"
+}
+]
+
+
