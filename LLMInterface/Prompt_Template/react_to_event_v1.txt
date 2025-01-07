@@ -1,0 +1,9 @@
+当前你正在做的事:!<INPUT 0>!
+你的性格是：!<INPUT 1>!
+周围发生:!<INPUT 2>!
+他与这个事件的关联印象是:!<INPUT 3>!
+
+<commentblockmarker>###</commentblockmarker>
+当前你正在!<INPUT 0>!,你发现!<INPUT 1>!,你的性格是:!<INPUT 2>!
+请猜想出当前情况下的你反应
+输出应只包含你当前的反应不包含其它内容

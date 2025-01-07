@@ -1,0 +1,39 @@
+<commentblockmarker>###</commentblockmarker>
+请将当前数据转换为以下格式输出
+数据:!<INPUT 0>!
+输出遵照以下python 中的 json格式 示例：
+[
+{
+"str": "在学校进行午餐休息与休息时间",
+"start_time": "12:00",
+"end_time": "13:00",
+"location": 学校,
+"subject": null,
+"verb": "进行",
+"object": "午餐休息与休息时间",
+"sub_clause": null,
+"predicate": null
+},
+{
+"str": "在公司准备明天出差所需文件",
+"start_time": "13:00",
+"end_time": "14:30",
+"location": 公司,
+"subject": null,
+"verb": "准备",
+"object": "明天出差所需文件",
+"sub_clause": null,
+"predicate": null
+},
+{
+"str": "在公司开会讨论新项目的战略规划",
+"start_time": "14:30",
+"end_time": "16:00",
+"location": 公司,
+"subject": null,
+"verb": "开会讨论",
+"object": "新项目的战略规划",
+"sub_clause": null,
+"predicate": null
+}
+]

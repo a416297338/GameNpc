@@ -1,0 +1,11 @@
+当前你正在做的事:!<INPUT 0>!
+你的性格是：!<INPUT 1>!
+事件以及你与他们的相关记忆:!<INPUT 2>!
+事件列表:!<INPUT 3>!
+<commentblockmarker>###</commentblockmarker>
+当前你正在做的事:!<INPUT 0>!
+你的性格是：!<INPUT 1>!
+请从下列事件中选出一个你最有可能去反应的事件
+事件列表:!<INPUT 3>!
+事件以及你与他们的相关记忆:!<INPUT 2>!
+输出应只包含一个事件

@@ -1,0 +1,46 @@
+[
+    {
+        "name": "小李",
+        "age": 32,
+        "sex": "男",
+        "occupation": "律师",
+        "religious": "佛教",
+        "background": "来自一个传统的家庭，父母都是教师",
+        "belief": "坚信正义和公平",
+        "pos": [
+            79,
+            81
+        ],
+        "personality": [
+            "坚定",
+            "善良",
+            "理性"
+        ]
+    },
+    {
+        "name": "李娜",
+        "age": 32,
+        "sex": "女",
+        "occupation": "律师",
+        "religious": "佛教",
+        "background": "来自一个传统的家庭，父母都是教师",
+        "belief": "坚信正义和公平",
+        "pos": [
+            23,
+            34
+        ],
+        "personality": [
+            "坚定",
+            "善良",
+            "理性"
+        ],
+        "mem_dict": {
+            "SemanticMemory": [
+                1,
+                2,
+                0,
+                3
+            ]
+        }
+    }
+]

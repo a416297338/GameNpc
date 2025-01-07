@@ -1,0 +1,11 @@
+当前你正在做的事:!<INPUT 0>!
+你的性格是：!<INPUT 1>!
+人名以及你与他们的相关记忆:!<INPUT 2>!
+人名列表:!<INPUT 3>!
+<commentblockmarker>###</commentblockmarker>
+当前你正在做的事:!<INPUT 0>!
+你的性格是：!<INPUT 1>!
+请从下列人物中选出一个你当前最有可能与他交流的人
+人名列表:!<INPUT 3>!
+人名以及你与他们的相关记忆:!<INPUT 2>!
+输出应只包含一个人名,输出示例:Bob

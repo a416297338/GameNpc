@@ -1,0 +1,10 @@
+当前事件描述:!<INPUT 0>!
+代选择列表:!<INPUT 1>!
+完整示例输入:
+”和朋友在操场闲逛“ 这句话中最可能包含“["eat","move","chat","walk","run","fight"]” 中哪个动作,选择出其中一个并输出.
+输出示例:“move”
+<commentblockmarker>###</commentblockmarker>
+”!<INPUT 0>!“ 这句话中是否包含“!<INPUT 1>!” 中哪一个动作.如果包含请输出 true 和 最可能包含的一个动作，如果不包含请输出 false 和 一个动词代表这句话里的动作
+输出示例 [true, "move"] or [false, "reflect"]
+输出 以[作为第一个字符开头,
+] 作为左后一个字符结尾.

@@ -1,0 +1,56 @@
+从下面的文本中分析提取所有的人物信息对其它人物的看法
+!<INPUT 0>!
+输出必须是能被python解析为json的格式.以"{" 开头 "}" 结尾。
+{
+    "小明": [
+    {
+        "str": "我认为小李是一个十分活泼开朗的人",
+        "subject": "小明",
+        "verb": "是",
+        "object": "小李",
+        "sub_clause": "",
+        "predicate": "活泼开朗",
+    },
+    {
+        "str": "我认为小张是一个脾气很大的人",
+        "subject": "小明",
+        "verb": "是",
+        "object": "小张",
+        "sub_clause": null,
+        "predicate": "脾气大",
+        "other_person": "小张",
+    }
+    ]
+    "小李": [
+    {
+        "str": "我喜欢小明",
+        "subject": "小李",
+        "verb": "喜欢",
+        "object": "小明",
+        "sub_clause": "",
+        "predicate": "",
+        "other_person": "小明",
+    }
+    ]
+    "小张":[
+        {
+            "str": "我觉得小明可能不喜欢我",
+            "subject": "小张",
+            "verb": "不喜欢",
+            "object": " 小明",
+            "sub_clause": "",
+            "predicate": "",
+            "other_person": "小明",
+        },
+        {
+            "str": "我认为小李比较喜欢小明",
+            "subject": "小张",
+            "verb": "喜欢",
+            "object": "小李",
+            "sub_clause": "小李比较喜欢小明",
+            "predicate": "",
+            "other_person":"小李",
+            "type": ""
+        }
+    ]
+}

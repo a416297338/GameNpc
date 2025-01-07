@@ -1,0 +1,28 @@
+{
+    "1": {
+        "str": "我的家是 Isabella Rodriguez's apartment",
+        "start_time": null,
+        "end_time": null,
+        "location": " Isabella Rodriguez's apartment",
+        "subject": "家",
+        "verb": "是",
+        "object": " Isabella Rodriguez's apartment",
+        "sub_clause": null,
+        "predicate": null,
+        "other_person": null,
+        "type": null
+    },
+    "2": {
+        "str": "我的家是 Isabella Rodriguez's apartment",
+        "start_time": null,
+        "end_time": null,
+        "location": " Isabella Rodriguez's apartment",
+        "subject": "家",
+        "verb": "是",
+        "object": " Isabella Rodriguez's apartment",
+        "sub_clause": null,
+        "predicate": null,
+        "other_person": null,
+        "type": null
+    }
+}

@@ -1,0 +1,62 @@
+从下面的文本中分析提取所有的人物信息，并按照如下格式输出总结为json格式
+!<INPUT 0>!
+输出必须是能被python解析为里欸博爱的格式.以"[" 开头 "]" 结尾。
+输出样例：
+[
+    {
+        "name": "李娜",
+        "age": 32,
+        "sex": "女",
+        "occupation": "律师",
+        "religious": "佛教",
+        "background": "来自一个传统的家庭，父母都是教师",
+        "belief": "坚信正义和公平",
+        "personality": ["坚定", "善良", "理性"],
+        "speaking-style":["正式的","幽默的"]
+    },
+    {
+        "name": "张强",
+        "age": 45,
+        "sex": "男",
+        "occupation": "医生",
+        "religious": "无",
+        "background": "单亲家庭，母亲是工人",
+        "belief": "相信科学与技术改变世界",
+        "personality": ["乐观", "务实", "有责任感"],
+        "speaking-style":["严肃的","谨慎的"]
+    },
+    {
+        "name": "王芳",
+        "age": 28,
+        "sex": "女",
+        "occupation": "工程师",
+        "religious": "基督教",
+        "background": "家境优越，父母都是企业家",
+        "belief": "相信努力工作可以改变命运",
+        "personality": ["独立", "进取", "乐观"],
+        "speaking-style":["随性的"]
+    },
+    {
+        "name": "赵伟",
+        "age": 35,
+        "sex": "男",
+        "occupation": "教师",
+        "religious": "伊斯兰教",
+        "background": "农村出身，父母都是农民",
+        "belief": "认为教育是改变命运的关键",
+        "personality": ["耐心", "关爱", "有担当"]
+        "speaking-style":["粗鲁的", "敌对的", "蔑视的"]
+    },
+    {
+        "name": "陈红",
+        "age": 50,
+        "sex": "女",
+        "occupation": "企业家",
+        "religious": "无",
+        "background": "曾经贫困，通过努力创业成功",
+        "belief": "希望帮助更多人改变命运",
+        "personality": ["坚韧", "慷慨", "有远见"]
+        "speaking-style":["柔情的"]
+    },
+    .....
+]

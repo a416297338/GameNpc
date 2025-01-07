@@ -1,0 +1,56 @@
+句子：!<INPUT 0>!
+完整输入示例：
+句子：我询问大熊未来科技的发展，大熊认为未来科技会更智能化，例如人工智能和物联网的发展会更广泛。我表示同意，认为这些领域的发展会给我们的生活带来很多便利。大熊认为未来的发展会让我们的生活变得更智能化。我告别后，大熊祝我一路顺风，表示下次再聊。
+将上面这个句子按照以下数据格式分解语义:
+data.get('str') # 句子内容
+data.get('start_time') # 开始时间
+data.get('end_time') # 结束时间
+data.get('location') # 地点
+data.get('subject') # 主语
+data.get('verb') # 谓语
+data.get('object') # 宾语
+data.get('sub_clause') # 从句
+data.get('predicate') # 表语
+data.get('other_person') # 句子中主语一起做事的人(可能缺省)
+输出以 { 作为开头 } 作为结尾,
+输出应该遵照以下python 中的 json格式 示例：
+{
+"str": "在学校进行午餐休息与休息时间",
+"start_time": "12:00",
+"end_time": "13:00",
+"location": 学校,
+"subject": null,
+"verb": "进行",
+"object": "午餐休息与休息时间",
+"sub_clause": null,
+"predicate": null,
+"other_person": null
+}
+<commentblockmarker>###</commentblockmarker>
+句子：!<INPUT 0>!
+将上面这个句子按照以下数据格式分解语义:
+data.get('str') # 句子内容
+data.get('start_time') # 开始时间
+data.get('end_time') # 结束时间
+data.get('location') # 地点
+data.get('subject') # 主语
+data.get('verb') # 谓语
+data.get('object') # 宾语
+data.get('sub_clause') # 从句
+data.get('predicate') # 表语
+data.get('other_person') # 句子中主语一起做事的人(可能缺省)
+输出以 { 作为开头 } 作为结尾
+其中 start_time和end_time 以及 location 必须有相应的值
+输出应该遵照以下python 中的 json格式 示例：
+{
+"str": "在学校进行午餐休息与休息时间",
+"start_time": "12:00",
+"end_time": "13:00",
+"location": 学校,
+"subject": null,
+"verb": "进行",
+"object": "午餐休息与休息时间",
+"sub_clause": null,
+"predicate": null,
+"other_person": null
+}
